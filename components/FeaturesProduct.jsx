@@ -35,6 +35,9 @@ const FeaturesProduct = () => {
                 <Image
                   alt={feature.title}
                   src={feature.image}
+                  width={900}
+                  height={900}
+                  quality={100}
                   className="w-full rounded-lg bg-white object-cover group-hover:opacity-75 sm:aspect-2/1 lg:aspect-square"
                 />
                 <h3 className="mt-6 text-sm text-gray-500">

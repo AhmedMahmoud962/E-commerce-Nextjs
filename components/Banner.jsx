@@ -10,6 +10,10 @@ const Banner = ({ title, description, buttonText }) => {
         className="max-w-56"
         src={assets.jbl_soundbox_image}
         alt="jbl_soundbox_image"
+        width={900}
+        height={900}
+        quality={100}
+        priority
       />
       <div className="flex flex-col items-center justify-center text-center space-y-2 px-4 md:px-0">
         <h2 className="text-3xl text-red-600 font-bold max-w-[290px]">
@@ -27,11 +31,19 @@ const Banner = ({ title, description, buttonText }) => {
         className="hidden md:block max-w-80"
         src={assets.md_controller_image}
         alt="md_controller_image"
+        width={900}
+        height={900}
+        quality={100}
+        priority
       />
       <Image
         className="md:hidden"
         src={assets.sm_controller_image}
         alt="sm_controller_image"
+        width={900}
+        height={900}
+        quality={100}
+        priority
       />
     </div>
   );
