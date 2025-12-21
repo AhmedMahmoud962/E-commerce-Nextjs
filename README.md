@@ -152,13 +152,13 @@ Before you begin, ensure you have the following installed:
 
 3. **Run the development server**
 
-   ```bash
-   npm run dev
-   # or
-   yarn dev
-   # or
-   pnpm dev
-   ```
+```bash
+npm run dev
+# or
+yarn dev
+# or
+pnpm dev
+```
 
 4. **Open your browser**
    Navigate to [http://localhost:3000](http://localhost:3000) to see the application.

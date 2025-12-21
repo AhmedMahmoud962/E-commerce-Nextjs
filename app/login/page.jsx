@@ -1,0 +1,15 @@
+import React from 'react'
+import Navbar from '../../components/Navbar'
+import Footer from '../../components/Footer'
+import FormLogin from '../../components/FormLogin'
+const LoginPage = () => {
+  return (
+    <div>
+      <Navbar />
+      <FormLogin />
+      <Footer />
+    </div>
+  )
+}
+
+export default LoginPage
